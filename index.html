@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Chatbot FAQ IA: proyecto demostrativo de automatización de atención al cliente mediante Make, OpenAI y Google Sheets.">
+  <meta name="theme-color" content="#171e36">
+  <title>Chatbot FAQ IA | Proyecto de demostración</title>
+  <style>
+    :root{color-scheme:light;--ink:#17213b;--muted:#5c6680;--accent:#6255dd;--bg:#f5f7fc;--line:#e3e7f0}
+    *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+    header{background:linear-gradient(130deg,#17213b,#343077 72%,#5d52be);color:white;padding:68px 24px 76px}
+    .wrap{max-width:960px;margin:auto}.eyebrow{font-size:13px;letter-spacing:.13em;text-transform:uppercase;font-weight:750;color:#d9d4ff}
+    h1{font-size:clamp(36px,6vw,62px);line-height:1.13;margin:16px 0 18px;letter-spacing:-.04em}
+    .lead{max-width:690px;font-size:19px;color:#e8eaff}main{padding:36px 24px 64px}
+    .pill{display:inline-block;background:#efeaff;color:#4033a5;border-radius:999px;padding:5px 12px;font-size:13px;font-weight:700}
+    .panel{background:white;border:1px solid var(--line);padding:30px;border-radius:20px;box-shadow:0 10px 32px rgba(23,33,59,.04);margin-bottom:20px}
+    h2{font-size:24px;letter-spacing:-.02em;margin:4px 0 14px}p{margin:0 0 12px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin:20px 0}
+    .tile{padding:20px;border:1px solid var(--line);border-radius:15px;background:#fbfcff}.tile strong{display:block;margin-bottom:8px}
+    .step{font-size:14px;color:#4539ad;font-weight:750;letter-spacing:.02em}
+    .note{border-left:4px solid var(--accent);padding:12px 18px;background:#f6f3ff;border-radius:0 12px 12px 0}
+    footer{padding:30px 24px;border-top:1px solid var(--line);font-size:14px;color:var(--muted)}
+    @media(max-width:650px){header{padding:48px 20px}main{padding:20px 16px 45px}.grid{grid-template-columns:1fr}.panel{padding:22px}}
+  </style>
+</head>
+<body>
+  <header><div class="wrap"><div class="eyebrow">Automatización · Inteligencia artificial</div><h1>Chatbot FAQ IA</h1><p class="lead">Proyecto de demostración de un asistente virtual que responde preguntas frecuentes utilizando una base de conocimientos y automatizaciones.</p><span class="pill">Prototipo educativo</span></div></header>
+  <main class="wrap">
+    <section class="panel"><h2>Sobre el proyecto</h2><p>Chatbot FAQ IA es un proyecto práctico de aprendizaje y desarrollo de automatizaciones. El prototipo recibe preguntas, consulta una base de conocimientos en Google Sheets y utiliza un modelo de inteligencia artificial para redactar respuestas claras en español.</p><p>La integración con WhatsApp Business Cloud está en fase de configuración y pruebas.</p></section>
+    <section class="panel"><h2>Tecnologías empleadas</h2><div class="grid"><div class="tile"><strong>Make</strong>Orquesta el flujo entre los distintos servicios.</div><div class="tile"><strong>Google Sheets</strong>Almacena las preguntas y respuestas frecuentes.</div><div class="tile"><strong>OpenAI</strong>Interpreta las preguntas y redacta respuestas basadas en la información disponible.</div></div></section>
+    <section class="panel"><h2>Cómo funciona</h2><p><span class="step">01 · Entrada</span> Una pregunta llega al flujo automatizado mediante un webhook.</p><p><span class="step">02 · Consulta</span> Se recuperan las preguntas frecuentes guardadas en la hoja de cálculo.</p><p><span class="step">03 · Respuesta</span> La IA utiliza esa información para responder sin inventar datos no confirmados.</p><p><span class="step">04 · Entrega</span> La respuesta se devuelve al canal de prueba.</p></section>
+    <section class="panel"><h2>Estado y alcance</h2><div class="note"><strong>Aviso:</strong> Este sitio presenta un prototipo educativo. No es una tienda real, no vende productos y no ofrece atención comercial a clientes. Los ejemplos de preguntas frecuentes son ficticios.</div></section>
+  </main>
+  <footer><div class="wrap">Chatbot FAQ IA · Proyecto de demostración · España</div></footer>
+</body>
+</html>
